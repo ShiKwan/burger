@@ -3,7 +3,7 @@ module.exports = function(connection){
   var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'Gobigblue97',
     database: 'burgers_db'
   })
   connection.connect(function (err) {
