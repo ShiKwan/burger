@@ -6,7 +6,7 @@ var burger = {
       cb(result)
     })
   },
-  create: function (col2, vals, cb) {
+  create: function (cols, vals, cb) {
     orm.create('burgers', cols, vals, function (result) {
       cb(result)
     })
